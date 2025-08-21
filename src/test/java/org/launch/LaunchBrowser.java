@@ -40,7 +40,8 @@ public class LaunchBrowser extends Base{
 	public static ExtentSparkReporter repoter;
 	public static ExtentReports reports;
 	public static ExtentTest extentTest;
-	public static org.apache.log4j.Logger log;
+	public static Logger log;
+	
 	
 	@BeforeSuite(groups = "before")
 	public static void openConnection() throws IOException {
@@ -51,13 +52,15 @@ public class LaunchBrowser extends Base{
 		
 		log= Logger.getLogger(LaunchBrowser.class);
 		BasicConfigurator.configure();
-		
+				
 		pom= new PageObjectModel(driver);
 		
 		webdriverWait = new WebDriverWait(driver, Duration.ofSeconds(40));
 		
 		url = ConfigManager.getConfigManager().getConfigReader().getUrl();
+		driver.get(url);
 		System.out.println(url);
+	
 		
 		Capabilities cap = ((RemoteWebDriver) driver).getCapabilities();
 		
@@ -86,6 +89,7 @@ public class LaunchBrowser extends Base{
 	}
 	
 	
+	
 	@AfterMethod
 	public void checkStatus(ITestResult result) throws IOException {
 		if (result.getStatus() == ITestResult.SUCCESS) {
@@ -101,6 +105,10 @@ public class LaunchBrowser extends Base{
 	public void tear_Down() {
 
 		reports.flush();
+		
+		if(driver != null) {
+			driver.quit();
+		}
 
 		try {
 			Desktop.getDesktop().browse(new File("ExtentReports/TestResult.html").toURI());

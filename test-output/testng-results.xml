@@ -1,58 +1,1899 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="15" total="53" passed="27" failed="11" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-08T10:52:53 IST" name="Default suite" finished-at="2025-08-08T10:53:27 IST" duration-ms="33964">
+  <suite started-at="2025-08-21T14:15:17 IST" name="Suite" finished-at="2025-08-21T14:17:31 IST" duration-ms="133984">
     <groups>
     </groups>
-    <test started-at="2025-08-08T10:52:53 IST" name="Default test" finished-at="2025-08-08T10:53:27 IST" duration-ms="33964">
-      <class name="org.testCases.LandingPage">
-        <test-method is-config="true" signature="openConnection()[pri:0, instance:org.testCases.LandingPage@1d296da]" started-at="2025-08-08T10:52:51 IST" name="openConnection" finished-at="2025-08-08T10:52:53 IST" duration-ms="2533" status="PASS">
+    <test started-at="2025-08-21T14:15:17 IST" name="Test" finished-at="2025-08-21T14:17:31 IST" duration-ms="133984">
+      <class name="org.testCases.AboutUs">
+        <test-method is-config="true" signature="openConnection()[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:15 IST" name="openConnection" finished-at="2025-08-21T14:15:17 IST" duration-ms="2788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openConnection -->
-        <test-method is-config="true" signature="getTheTestNmae(org.testng.ITestContext)[pri:0, instance:org.testCases.LandingPage@1d296da]" started-at="2025-08-08T10:52:53 IST" name="getTheTestNmae" finished-at="2025-08-08T10:52:53 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="getTheTestNmae(org.testng.ITestContext)[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:17 IST" name="getTheTestNmae" finished-at="2025-08-21T14:15:17 IST" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@17b387ef]]>
+                <![CDATA[org.testng.TestRunner@39652a30]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTheTestNmae -->
-        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.LandingPage@1d296da]" started-at="2025-08-08T10:52:53 IST" name="verifyTheName" finished-at="2025-08-08T10:52:53 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:17 IST" name="verifyTheName" finished-at="2025-08-21T14:15:17 IST" duration-ms="18" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void org.testCases.LandingPage.execute() throws java.lang.InterruptedException,java.io.IOException]]>
+                <![CDATA[public void org.testCases.AboutUs.aboutUs() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheName -->
-        <test-method signature="execute()[pri:0, instance:org.testCases.LandingPage@1d296da]" started-at="2025-08-08T10:52:53 IST" name="execute" finished-at="2025-08-08T10:53:27 IST" duration-ms="33885" status="PASS">
+        <test-method signature="aboutUs()[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:17 IST" name="aboutUs" description="Verify aboutus page load" finished-at="2025-08-21T14:15:32 IST" duration-ms="14177" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- execute -->
-        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.LandingPage@1d296da]" started-at="2025-08-08T10:53:27 IST" name="checkStatus" finished-at="2025-08-08T10:53:27 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- aboutUs -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:32 IST" name="checkStatus" finished-at="2025-08-21T14:15:32 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=execute status=SUCCESS method=LandingPage.execute()[pri:0, instance:org.testCases.LandingPage@1d296da] output={null}]]]>
+                <![CDATA[[TestResult name=aboutUs status=SUCCESS method=AboutUs.aboutUs()[pri:0, instance:org.testCases.AboutUs@1283bb96] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatus -->
-        <test-method is-config="true" signature="tear_Down()[pri:0, instance:org.testCases.LandingPage@1d296da]" started-at="2025-08-08T10:53:27 IST" name="tear_Down" finished-at="2025-08-08T10:53:29 IST" duration-ms="1567" status="PASS">
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:32 IST" name="verifyTheName" finished-at="2025-08-21T14:15:32 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.AboutUs.mainHeading()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="mainHeading()[pri:1, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:32 IST" name="mainHeading" description="Verify main heading is displayed" finished-at="2025-08-21T14:15:32 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainHeading -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:32 IST" name="checkStatus" finished-at="2025-08-21T14:15:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mainHeading status=SUCCESS method=AboutUs.mainHeading()[pri:1, instance:org.testCases.AboutUs@1283bb96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:32 IST" name="verifyTheName" finished-at="2025-08-21T14:15:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.AboutUs.allLinksAccessibility()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="allLinksAccessibility()[pri:2, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:32 IST" name="allLinksAccessibility" description="Verify all links are accessible" finished-at="2025-08-21T14:15:32 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allLinksAccessibility -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:32 IST" name="checkStatus" finished-at="2025-08-21T14:15:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=allLinksAccessibility status=SUCCESS method=AboutUs.allLinksAccessibility()[pri:2, instance:org.testCases.AboutUs@1283bb96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:32 IST" name="verifyTheName" finished-at="2025-08-21T14:15:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.AboutUs.ourLocation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="ourLocation()[pri:3, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:32 IST" name="ourLocation" description="navigating to the our location page from aboutus" finished-at="2025-08-21T14:15:38 IST" duration-ms="5886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ourLocation -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:38 IST" name="checkStatus" finished-at="2025-08-21T14:15:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ourLocation status=SUCCESS method=AboutUs.ourLocation()[pri:3, instance:org.testCases.AboutUs@1283bb96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:38 IST" name="verifyTheName" finished-at="2025-08-21T14:15:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.AboutUs.leaderShip() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="leaderShip()[pri:4, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:38 IST" name="leaderShip" description="navigating to leadership page from aboutus" finished-at="2025-08-21T14:15:47 IST" duration-ms="8988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaderShip -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:15:47 IST" name="checkStatus" finished-at="2025-08-21T14:15:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=leaderShip status=SUCCESS method=AboutUs.leaderShip()[pri:4, instance:org.testCases.AboutUs@1283bb96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="tear_Down()[pri:0, instance:org.testCases.AboutUs@1283bb96]" started-at="2025-08-21T14:17:32 IST" name="tear_Down" finished-at="2025-08-21T14:17:33 IST" duration-ms="1606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear_Down -->
-      </class> <!-- org.testCases.LandingPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- org.testCases.AboutUs -->
+      <class name="org.testCases.SocialMediaLink">
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.SocialMediaLink@689604d9]" started-at="2025-08-21T14:16:50 IST" name="verifyTheName" finished-at="2025-08-21T14:16:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.SocialMediaLink.linkin() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="linkin()[pri:0, instance:org.testCases.SocialMediaLink@689604d9]" started-at="2025-08-21T14:16:50 IST" name="linkin" description="Verify linkin social media platform on the footer" finished-at="2025-08-21T14:16:55 IST" duration-ms="5150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkin -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.SocialMediaLink@689604d9]" started-at="2025-08-21T14:16:55 IST" name="checkStatus" finished-at="2025-08-21T14:16:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=linkin status=SUCCESS method=SocialMediaLink.linkin()[pri:0, instance:org.testCases.SocialMediaLink@689604d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.SocialMediaLink@689604d9]" started-at="2025-08-21T14:16:55 IST" name="verifyTheName" finished-at="2025-08-21T14:16:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.SocialMediaLink.x() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="x()[pri:1, instance:org.testCases.SocialMediaLink@689604d9]" started-at="2025-08-21T14:16:55 IST" name="x" description="Verify X social media platform on the footer" finished-at="2025-08-21T14:17:01 IST" duration-ms="6345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- x -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.SocialMediaLink@689604d9]" started-at="2025-08-21T14:17:01 IST" name="checkStatus" finished-at="2025-08-21T14:17:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=x status=SUCCESS method=SocialMediaLink.x()[pri:1, instance:org.testCases.SocialMediaLink@689604d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.SocialMediaLink@689604d9]" started-at="2025-08-21T14:17:01 IST" name="verifyTheName" finished-at="2025-08-21T14:17:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.SocialMediaLink.fb() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="fb()[pri:2, instance:org.testCases.SocialMediaLink@689604d9]" started-at="2025-08-21T14:17:01 IST" name="fb" description="Verify FB social media platform on the footer" finished-at="2025-08-21T14:17:07 IST" duration-ms="5308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fb -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.SocialMediaLink@689604d9]" started-at="2025-08-21T14:17:07 IST" name="checkStatus" finished-at="2025-08-21T14:17:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fb status=SUCCESS method=SocialMediaLink.fb()[pri:2, instance:org.testCases.SocialMediaLink@689604d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+      </class> <!-- org.testCases.SocialMediaLink -->
+      <class name="org.testCases.ProductEngineering">
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:25 IST" name="verifyTheName" finished-at="2025-08-21T14:16:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.ProductEngineering.productEngineeringLoad() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="productEngineeringLoad()[pri:0, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:25 IST" name="productEngineeringLoad" description="Verify partners page load" finished-at="2025-08-21T14:16:38 IST" duration-ms="13419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productEngineeringLoad -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:38 IST" name="checkStatus" finished-at="2025-08-21T14:16:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productEngineeringLoad status=SUCCESS method=ProductEngineering.productEngineeringLoad()[pri:0, instance:org.testCases.ProductEngineering@35d019a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="mainHeading()[pri:1, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:38 IST" name="mainHeading" description="Verify main heading is displayed" finished-at="2025-08-21T14:16:38 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainHeading -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:38 IST" name="verifyTheName" finished-at="2025-08-21T14:16:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.ProductEngineering.mainHeading()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:38 IST" name="checkStatus" finished-at="2025-08-21T14:16:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mainHeading status=SUCCESS method=ProductEngineering.mainHeading()[pri:1, instance:org.testCases.ProductEngineering@35d019a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="allLinksAccessibility()[pri:2, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:38 IST" name="allLinksAccessibility" description="Verify all links are accessible" finished-at="2025-08-21T14:16:39 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allLinksAccessibility -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:38 IST" name="verifyTheName" finished-at="2025-08-21T14:16:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.ProductEngineering.allLinksAccessibility()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:39 IST" name="checkStatus" finished-at="2025-08-21T14:16:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=allLinksAccessibility status=SUCCESS method=ProductEngineering.allLinksAccessibility()[pri:2, instance:org.testCases.ProductEngineering@35d019a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:39 IST" name="verifyTheName" finished-at="2025-08-21T14:16:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.ProductEngineering.health() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="health()[pri:3, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:39 IST" name="health" description="navigating to the application migration page from product engineering page" finished-at="2025-08-21T14:16:43 IST" duration-ms="4044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- health -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:43 IST" name="checkStatus" finished-at="2025-08-21T14:16:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=health status=SUCCESS method=ProductEngineering.health()[pri:3, instance:org.testCases.ProductEngineering@35d019a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:43 IST" name="verifyTheName" finished-at="2025-08-21T14:16:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.ProductEngineering.kumaranSystem() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="kumaranSystem()[pri:4, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:43 IST" name="kumaranSystem" description="navigating to the managed IT service page from product engineering" finished-at="2025-08-21T14:16:50 IST" duration-ms="7068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kumaranSystem -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.ProductEngineering@35d019a3]" started-at="2025-08-21T14:16:50 IST" name="checkStatus" finished-at="2025-08-21T14:16:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=kumaranSystem status=SUCCESS method=ProductEngineering.kumaranSystem()[pri:4, instance:org.testCases.ProductEngineering@35d019a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+      </class> <!-- org.testCases.ProductEngineering -->
+      <class name="org.testCases.StaffAugmentation">
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:07 IST" name="verifyTheName" finished-at="2025-08-21T14:17:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.StaffAugmentation.staffAugmentationload() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="staffAugmentationload()[pri:0, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:07 IST" name="staffAugmentationload" description="Verify staff augmentation load" finished-at="2025-08-21T14:17:20 IST" duration-ms="13346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staffAugmentationload -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:20 IST" name="checkStatus" finished-at="2025-08-21T14:17:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=staffAugmentationload status=SUCCESS method=StaffAugmentation.staffAugmentationload()[pri:0, instance:org.testCases.StaffAugmentation@18078bef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:20 IST" name="verifyTheName" finished-at="2025-08-21T14:17:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.StaffAugmentation.mainHeading()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="mainHeading()[pri:1, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:20 IST" name="mainHeading" description="Verify main heading is displayed" finished-at="2025-08-21T14:17:20 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainHeading -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:20 IST" name="checkStatus" finished-at="2025-08-21T14:17:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mainHeading status=SUCCESS method=StaffAugmentation.mainHeading()[pri:1, instance:org.testCases.StaffAugmentation@18078bef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:20 IST" name="verifyTheName" finished-at="2025-08-21T14:17:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.StaffAugmentation.allLinksAccessibility()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="allLinksAccessibility()[pri:2, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:20 IST" name="allLinksAccessibility" description="Verify all links are accessible" finished-at="2025-08-21T14:17:20 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allLinksAccessibility -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:20 IST" name="checkStatus" finished-at="2025-08-21T14:17:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=allLinksAccessibility status=SUCCESS method=StaffAugmentation.allLinksAccessibility()[pri:2, instance:org.testCases.StaffAugmentation@18078bef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="qualityAssurance()[pri:3, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:20 IST" name="qualityAssurance" description="navigating to the quality assurance page from staff augmentation page" finished-at="2025-08-21T14:17:24 IST" duration-ms="4011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qualityAssurance -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:20 IST" name="verifyTheName" finished-at="2025-08-21T14:17:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.StaffAugmentation.qualityAssurance() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:24 IST" name="checkStatus" finished-at="2025-08-21T14:17:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=qualityAssurance status=SUCCESS method=StaffAugmentation.qualityAssurance()[pri:3, instance:org.testCases.StaffAugmentation@18078bef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:24 IST" name="verifyTheName" finished-at="2025-08-21T14:17:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.StaffAugmentation.generateAi() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="generateAi()[pri:4, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:24 IST" name="generateAi" description="navigating to the generate AI solution page from staff augmentation" finished-at="2025-08-21T14:17:31 IST" duration-ms="7030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateAi -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.StaffAugmentation@18078bef]" started-at="2025-08-21T14:17:31 IST" name="checkStatus" finished-at="2025-08-21T14:17:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=generateAi status=SUCCESS method=StaffAugmentation.generateAi()[pri:4, instance:org.testCases.StaffAugmentation@18078bef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+      </class> <!-- org.testCases.StaffAugmentation -->
+      <class name="org.testCases.CaseStudies">
+        <test-method signature="casestudiesload()[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:15:47 IST" name="casestudiesload" description="Verify cases studies load" finished-at="2025-08-21T14:16:02 IST" duration-ms="14316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casestudiesload -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:15:47 IST" name="verifyTheName" finished-at="2025-08-21T14:15:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.casestudiesload() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="checkStatus" finished-at="2025-08-21T14:16:02 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=casestudiesload status=SUCCESS method=CaseStudies.casestudiesload()[pri:0, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="mainHeading()[pri:1, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="mainHeading" description="Verify main heading is displayed" finished-at="2025-08-21T14:16:02 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainHeading -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="verifyTheName" finished-at="2025-08-21T14:16:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.mainHeading()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="checkStatus" finished-at="2025-08-21T14:16:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mainHeading status=SUCCESS method=CaseStudies.mainHeading()[pri:1, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="verifyTheName" finished-at="2025-08-21T14:16:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.allLinksAccessibility()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="allLinksAccessibility()[pri:2, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="allLinksAccessibility" description="Verify all links are accessible" finished-at="2025-08-21T14:16:02 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allLinksAccessibility -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="checkStatus" finished-at="2025-08-21T14:16:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=allLinksAccessibility status=SUCCESS method=CaseStudies.allLinksAccessibility()[pri:2, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="verifyTheName" finished-at="2025-08-21T14:16:02 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.healthcareCaseStudies() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="healthcareCaseStudies()[pri:3, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="healthcareCaseStudies" description="Downloading healthcare tech case studies" finished-at="2025-08-21T14:16:02 IST" duration-ms="37" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='industry-content'])[1]"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=(//div[@class='industry-content'])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='industry-content'])[1]"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=(//div[@class='industry-content'])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:466)
+at com.base.Base.scrollToElement(Base.java:141)
+at org.testCases.CaseStudies.healthcareCaseStudies(CaseStudies.java:113)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthcareCaseStudies -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="checkStatus" finished-at="2025-08-21T14:16:02 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=healthcareCaseStudies status=FAILURE method=CaseStudies.healthcareCaseStudies()[pri:3, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="verifyTheName" finished-at="2025-08-21T14:16:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.migrationCaseStudies() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="migrationCaseStudies()[pri:4, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="migrationCaseStudies" description="Downloading Migrating VB6 App to .NET Core case studies" finished-at="2025-08-21T14:16:02 IST" duration-ms="24" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='industry-content'])[1]"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=(//div[@class='industry-content'])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='industry-content'])[1]"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=(//div[@class='industry-content'])[1]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:466)
+at com.base.Base.scrollToElement(Base.java:141)
+at org.testCases.CaseStudies.migrationCaseStudies(CaseStudies.java:147)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- migrationCaseStudies -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:02 IST" name="checkStatus" finished-at="2025-08-21T14:16:03 IST" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=migrationCaseStudies status=FAILURE method=CaseStudies.migrationCaseStudies()[pri:4, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="ubuntuUpgrade()[pri:5, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:03 IST" name="ubuntuUpgrade" description="Downloading Ubuntu Upgrade: 14.04 to 22.04 Transition case studies" finished-at="2025-08-21T14:16:03 IST" duration-ms="21" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Ubuntu Upgrade: 14.04 to 22.04 Transition']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Ubuntu Upgrade: 14.04 to 22.04 Transition']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Ubuntu Upgrade: 14.04 to 22.04 Transition']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Ubuntu Upgrade: 14.04 to 22.04 Transition']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:466)
+at com.base.Base.scrollToElement(Base.java:141)
+at org.testCases.CaseStudies.ubuntuUpgrade(CaseStudies.java:181)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ubuntuUpgrade -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:03 IST" name="verifyTheName" finished-at="2025-08-21T14:16:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.ubuntuUpgrade() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:03 IST" name="checkStatus" finished-at="2025-08-21T14:16:03 IST" duration-ms="262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ubuntuUpgrade status=FAILURE method=CaseStudies.ubuntuUpgrade()[pri:5, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:03 IST" name="verifyTheName" finished-at="2025-08-21T14:16:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.oracleForms() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="oracleForms()[pri:6, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:03 IST" name="oracleForms" description="Downloading Oracle Forms Migration to Java case studies" finished-at="2025-08-21T14:16:03 IST" duration-ms="26" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Oracle Forms Migration to Java']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Oracle Forms Migration to Java']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Oracle Forms Migration to Java']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Oracle Forms Migration to Java']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:466)
+at com.base.Base.scrollToElement(Base.java:141)
+at org.testCases.CaseStudies.oracleForms(CaseStudies.java:215)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oracleForms -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:03 IST" name="checkStatus" finished-at="2025-08-21T14:16:03 IST" duration-ms="273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=oracleForms status=FAILURE method=CaseStudies.oracleForms()[pri:6, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:03 IST" name="verifyTheName" finished-at="2025-08-21T14:16:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.scalableAndSecure() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="scalableAndSecure()[pri:7, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:03 IST" name="scalableAndSecure" description="Downloading Scalable &amp; Secure Lending App case studies" finished-at="2025-08-21T14:16:03 IST" duration-ms="25" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Scalable & Secure Lending App']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Scalable & Secure Lending App']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Scalable & Secure Lending App']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Scalable & Secure Lending App']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:466)
+at com.base.Base.scrollToElement(Base.java:141)
+at org.testCases.CaseStudies.scalableAndSecure(CaseStudies.java:249)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scalableAndSecure -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:03 IST" name="checkStatus" finished-at="2025-08-21T14:16:03 IST" duration-ms="225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scalableAndSecure status=FAILURE method=CaseStudies.scalableAndSecure()[pri:7, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:03 IST" name="verifyTheName" finished-at="2025-08-21T14:16:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.modernizingSales() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="modernizingSales()[pri:8, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:03 IST" name="modernizingSales" description="Downloading Modernizing Sales Insights via Reverse Engineering case studies" finished-at="2025-08-21T14:16:04 IST" duration-ms="20" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Modernizing Sales Insights via Reverse Engineering']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Modernizing Sales Insights via Reverse Engineering']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Modernizing Sales Insights via Reverse Engineering']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Modernizing Sales Insights via Reverse Engineering']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:466)
+at com.base.Base.scrollToElement(Base.java:141)
+at org.testCases.CaseStudies.modernizingSales(CaseStudies.java:283)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modernizingSales -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:04 IST" name="checkStatus" finished-at="2025-08-21T14:16:04 IST" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=modernizingSales status=FAILURE method=CaseStudies.modernizingSales()[pri:8, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:04 IST" name="verifyTheName" finished-at="2025-08-21T14:16:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.legacy() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="legacy()[pri:9, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:04 IST" name="legacy" description="Downloading Legacy to Central: Student Info System Upgrade case studies" finished-at="2025-08-21T14:16:04 IST" duration-ms="19" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Legacy to Central: Student Info System Upgrade']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Legacy to Central: Student Info System Upgrade']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Legacy to Central: Student Info System Upgrade']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Legacy to Central: Student Info System Upgrade']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:466)
+at com.base.Base.scrollToElement(Base.java:141)
+at org.testCases.CaseStudies.legacy(CaseStudies.java:317)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- legacy -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:04 IST" name="checkStatus" finished-at="2025-08-21T14:16:04 IST" duration-ms="250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=legacy status=FAILURE method=CaseStudies.legacy()[pri:9, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:04 IST" name="verifyTheName" finished-at="2025-08-21T14:16:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.oracleForm() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="oracleForm()[pri:10, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:04 IST" name="oracleForm" description="Downloading Oracle Forms Transformed for the Future case studies" finished-at="2025-08-21T14:16:04 IST" duration-ms="24" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Oracle Forms Transformed for the Future']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Oracle Forms Transformed for the Future']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Oracle Forms Transformed for the Future']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Oracle Forms Transformed for the Future']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:466)
+at com.base.Base.scrollToElement(Base.java:141)
+at org.testCases.CaseStudies.oracleForm(CaseStudies.java:350)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oracleForm -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:04 IST" name="checkStatus" finished-at="2025-08-21T14:16:04 IST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=oracleForm status=FAILURE method=CaseStudies.oracleForm()[pri:10, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="enhancingOperations()[pri:11, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:04 IST" name="enhancingOperations" description="Downloading Enhancing Operations with Manufacturing Data System case studies" finished-at="2025-08-21T14:16:04 IST" duration-ms="23" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Enhancing Operations with Manufacturing Data System']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Enhancing Operations with Manufacturing Data System']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Enhancing Operations with Manufacturing Data System']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Enhancing Operations with Manufacturing Data System']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:466)
+at com.base.Base.scrollToElement(Base.java:141)
+at org.testCases.CaseStudies.enhancingOperations(CaseStudies.java:384)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enhancingOperations -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:04 IST" name="verifyTheName" finished-at="2025-08-21T14:16:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.enhancingOperations() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:04 IST" name="checkStatus" finished-at="2025-08-21T14:16:05 IST" duration-ms="236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enhancingOperations status=FAILURE method=CaseStudies.enhancingOperations()[pri:11, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:05 IST" name="verifyTheName" finished-at="2025-08-21T14:16:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.modernizingWorkForce() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="modernizingWorkForce()[pri:12, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:05 IST" name="modernizingWorkForce" description="Downloading Modernizing Workforce Ops via System Integration case studies" finished-at="2025-08-21T14:16:05 IST" duration-ms="25" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Modernizing Workforce Ops via System Integration']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Modernizing Workforce Ops via System Integration']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Modernizing Workforce Ops via System Integration']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Modernizing Workforce Ops via System Integration']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:466)
+at com.base.Base.scrollToElement(Base.java:141)
+at org.testCases.CaseStudies.modernizingWorkForce(CaseStudies.java:418)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modernizingWorkForce -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:05 IST" name="checkStatus" finished-at="2025-08-21T14:16:05 IST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=modernizingWorkForce status=FAILURE method=CaseStudies.modernizingWorkForce()[pri:12, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:05 IST" name="verifyTheName" finished-at="2025-08-21T14:16:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.CaseStudies.runwayAnalysis() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="runwayAnalysis()[pri:13, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:05 IST" name="runwayAnalysis" description="Downloading Runway Analysis App Upgraded for Web Access case studies" finished-at="2025-08-21T14:16:05 IST" duration-ms="24" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Runway Analysis App Upgraded for Web Access']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Runway Analysis App Upgraded for Web Access']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='industries-grid']//h3[text()='Runway Analysis App Upgraded for Web Access']"}
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02806d1a18064b04cd6e5112b086dc8, findElement {using=xpath, value=//div[@class='industries-grid']//h3[text()='Runway Analysis App Upgraded for Web Access']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SHEIKS~1.A\AppData...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63357/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02806d1a18064b04cd6e5112b086dc8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:466)
+at com.base.Base.scrollToElement(Base.java:141)
+at org.testCases.CaseStudies.runwayAnalysis(CaseStudies.java:452)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runwayAnalysis -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.CaseStudies@2a3b5b47]" started-at="2025-08-21T14:16:05 IST" name="checkStatus" finished-at="2025-08-21T14:16:05 IST" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runwayAnalysis status=FAILURE method=CaseStudies.runwayAnalysis()[pri:13, instance:org.testCases.CaseStudies@2a3b5b47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+      </class> <!-- org.testCases.CaseStudies -->
+      <class name="org.testCases.Whitepaper">
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:05 IST" name="verifyTheName" finished-at="2025-08-21T14:16:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.Whitepaper.casestudiesload() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="casestudiesload()[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:05 IST" name="casestudiesload" description="Verify whitepaper load" finished-at="2025-08-21T14:16:18 IST" duration-ms="13420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casestudiesload -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:18 IST" name="checkStatus" finished-at="2025-08-21T14:16:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=casestudiesload status=SUCCESS method=Whitepaper.casestudiesload()[pri:0, instance:org.testCases.Whitepaper@55b699ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="mainHeading()[pri:1, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:18 IST" name="mainHeading" description="Verify main heading is displayed" finished-at="2025-08-21T14:16:19 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainHeading -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:18 IST" name="verifyTheName" finished-at="2025-08-21T14:16:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.Whitepaper.mainHeading()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:19 IST" name="checkStatus" finished-at="2025-08-21T14:16:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mainHeading status=SUCCESS method=Whitepaper.mainHeading()[pri:1, instance:org.testCases.Whitepaper@55b699ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:19 IST" name="verifyTheName" finished-at="2025-08-21T14:16:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.Whitepaper.allLinksAccessibility()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="allLinksAccessibility()[pri:2, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:19 IST" name="allLinksAccessibility" description="Verify all links are accessible" finished-at="2025-08-21T14:16:19 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allLinksAccessibility -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:19 IST" name="checkStatus" finished-at="2025-08-21T14:16:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=allLinksAccessibility status=SUCCESS method=Whitepaper.allLinksAccessibility()[pri:2, instance:org.testCases.Whitepaper@55b699ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:19 IST" name="verifyTheName" finished-at="2025-08-21T14:16:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.Whitepaper.aiDriven() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="aiDriven()[pri:3, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:19 IST" name="aiDriven" description="Downloading AI Driven Software Development whitepaper" finished-at="2025-08-21T14:16:21 IST" duration-ms="1993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aiDriven -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:21 IST" name="checkStatus" finished-at="2025-08-21T14:16:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aiDriven status=SUCCESS method=Whitepaper.aiDriven()[pri:3, instance:org.testCases.Whitepaper@55b699ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="digitalTransformation()[pri:4, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:21 IST" name="digitalTransformation" description="Downloading Digital Transformation in BFSI whitepaper" finished-at="2025-08-21T14:16:23 IST" duration-ms="1906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- digitalTransformation -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:21 IST" name="verifyTheName" finished-at="2025-08-21T14:16:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.Whitepaper.digitalTransformation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:23 IST" name="checkStatus" finished-at="2025-08-21T14:16:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=digitalTransformation status=SUCCESS method=Whitepaper.digitalTransformation()[pri:4, instance:org.testCases.Whitepaper@55b699ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="verifyTheName(java.lang.reflect.Method)[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:23 IST" name="verifyTheName" finished-at="2025-08-21T14:16:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testCases.Whitepaper.legacyModernisation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheName -->
+        <test-method signature="legacyModernisation()[pri:5, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:23 IST" name="legacyModernisation" description="Downloading Legacy Modernisation whitepaper" finished-at="2025-08-21T14:16:25 IST" duration-ms="1645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- legacyModernisation -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult)[pri:0, instance:org.testCases.Whitepaper@55b699ef]" started-at="2025-08-21T14:16:25 IST" name="checkStatus" finished-at="2025-08-21T14:16:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=legacyModernisation status=SUCCESS method=Whitepaper.legacyModernisation()[pri:5, instance:org.testCases.Whitepaper@55b699ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+      </class> <!-- org.testCases.Whitepaper -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

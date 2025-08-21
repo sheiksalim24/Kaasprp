@@ -4,9 +4,7 @@ import org.launch.LaunchBrowser;
 import org.testng.annotations.Test;
 
 public class LoginDetails  extends LaunchBrowser {
-	
 
-		
 		@Test
 		public static void openUrl() {
 			System.out.println("Call hear");

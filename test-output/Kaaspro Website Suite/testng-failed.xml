@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [Kaaspro Website Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Kaaspro Website(failed)">
+    <classes>
+      <class name="org.testCases.Contact">
+        <methods>
+          <include name="openConnection"/>
+          <include name="checkStatus"/>
+          <include name="contactLinksAccessibility"/>
+          <include name="tear_Down"/>
+          <include name="contactPageLoad"/>
+          <include name="getTheTestNmae"/>
+          <include name="verifyTheName"/>
+        </methods>
+      </class> <!-- org.testCases.Contact -->
+      <class name="org.testCases.ServicesPage">
+        <methods>
+          <include name="openConnection"/>
+          <include name="checkStatus"/>
+          <include name="servicesPageNavigation"/>
+          <include name="tear_Down"/>
+          <include name="getTheTestNmae"/>
+          <include name="verifyTheName"/>
+        </methods>
+      </class> <!-- org.testCases.ServicesPage -->
+    </classes>
+  </test> <!-- Kaaspro Website(failed) -->
+</suite> <!-- Failed suite [Kaaspro Website Suite] -->

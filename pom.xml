@@ -51,14 +51,6 @@
 		</dependency>
 
 
-		<!-- Maven -->
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-			<version>2.0.9</version>
-		</dependency>
-
-
 		<!--
 		https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-clean-plugin -->
 		<dependency>
@@ -145,6 +137,18 @@
 			<artifactId>ashot</artifactId>
 			<version>1.5.4</version>
 		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>2.0.13</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>2.0.13</version>
+		</dependency>
+
 
 	</dependencies>
 

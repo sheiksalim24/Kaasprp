@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Kaaspro Website Suite"  configfailurepolicy="continue">
+	<test thread-count="5" name="Kaaspro Website">
+		<classes>
+
+			<class name="org.testCases.HomePage" />
+			<class name="org.testCases.ServicesPage" />
+			<class name="org.testCases.MigrationAndModernization" />
+			<class name="org.testCases.Careers" />
+			<class name="org.testCases.Contact" />
+			
+		</classes>
+	</test> <!-- Kaaspro Website -->
+</suite> <!-- Kaaspro Website Suite -->
